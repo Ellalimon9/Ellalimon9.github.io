@@ -1,0 +1,27 @@
+h1{
+    color:darkred;
+    text-decoration: line-through;
+    font-size: 40px;
+    transition:all 1s;
+}
+h1:hover{
+    font-size: 140px;
+    color:green;
+    transform: rotate(180deg)
+}
+
+#outer{
+    height: 500px;
+    background:hotpink;
+}
+
+
+#inner{
+    height: 50%;
+    width: 50%;
+    background: pink;
+
+    padding: 20px;
+    border: 40px coral;
+    margin: 30px; 
+}
