@@ -1,0 +1,44 @@
+body {
+    background: rgb(137, 164, 215);
+    margin: 0px;
+    padding: 50px 60px;
+  }
+
+  h1 {
+    color: #004E89;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 500 px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #ffffff;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  p {
+    color: #ceb9e9;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 0;
+    text-align: center;
+  }  
+
+  image {
+    position: relative;
+    padding: 50px;
+  }
+
+  video {
+    position: relative;
+    padding: 50px;
+  }
