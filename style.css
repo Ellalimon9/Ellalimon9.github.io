@@ -7,7 +7,7 @@ h1{
 h1:hover{
     font-size: 140px;
     color:green;
-    transform: rotate(180deg)
+    
 }
 
 #outer{
