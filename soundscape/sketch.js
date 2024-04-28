@@ -1,50 +1,16 @@
 
-    let riverSound;
-    let metalSound;
-    let userHasClicked = false;
+    let labSound;
 
-    function preload() {
-    riverSound = loadSound('assets/river.wav');
+function preload() {
+
+  labSound = loadSound ("assets/lab.wav");
 }
 
-
-function setup() {
-  createCanvas(windowWidth, windowHeight);
-  textAlign(CENTER);
-  riverSound.setVolume(1)
- 
-}
-
-function draw() {
-  background("hotpink");
-
-  if(userHasClicked == false){
-    text ('Click to start', width/2, height/2)
-  }
-   else{
-
-if(riverSound.isPlaying() == false){
-    riverSound.play();
+    function setup() {
+      createCanvas(windowWidth, windowHeight);
+    
     }
 
-if(riverSound.isPlaying() == false){
-    riverSound.play();
+    function draw() {
+      background("hotpink");
     }
-
-    let targetVolume = map(
-    mouseX,
-    0,
-    width,
-    0, 
-    1
-    )
-    riverSound.setVolume(targetVolume)
-
-   }
-
-}
-
-function mouseClicked(){
-    userHasClicked = true;
-
-}
