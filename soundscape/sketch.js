@@ -18,7 +18,7 @@ function preload() {
     function draw() {
       background("hotpink");
 
-if (userHasClicked = false) {
+if (userClicked = false) {
   text("Click to start...",width / 2, height / 2);
 } else {
   if(labSound.isPlaying() = false){
