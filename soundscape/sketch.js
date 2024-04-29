@@ -18,10 +18,10 @@ function preload() {
     function draw() {
       background("hotpink");
 
-if (userClicked = false) {
+if (userClicked == false) {
   text("Click to start...",width / 2, height / 2);
 } else {
-  if(labSound.isPlaying() = false){
+  if(labSound.isPlaying() == false){
     labSound.play();
       }
 
@@ -39,5 +39,5 @@ labSound.setVolume(volume);
     }
 
     function mouseClicked() {
-      userHasClicked = true;
+      userClicked = true;
     }
