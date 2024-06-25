@@ -9,16 +9,21 @@ body {
     line-height: 1.6;
 }
 
+img {
+    width: 100%; 
+    height: auto; 
+}
+
 
 header {
-    background-color: #4CAF50;
+    background-color: #00ff00;
     color: white;
     padding: 1em 0;
     text-align: center;
 }
 
 nav {
-    background-color: #333;
+    background-color: #f70505;
 }
 
 nav ul {
@@ -39,7 +44,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #575757;
+    background-color: #ff0606;
 }
 
 main {
@@ -52,7 +57,7 @@ section {
 }
 
 footer {
-    background-color: #333;
+    background-color: #0505f7;
     color: white;
     text-align: center;
     padding: 1em 0;
